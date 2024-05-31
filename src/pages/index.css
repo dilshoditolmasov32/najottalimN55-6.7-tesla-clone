@@ -1,0 +1,10 @@
+.swipper {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 200px;
+  font-family: SF UI Text;
+}

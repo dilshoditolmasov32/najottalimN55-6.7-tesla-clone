@@ -1,0 +1,46 @@
+.footer-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 54px;
+  padding-top: 200px;
+}
+
+.footer_car_data {
+  display: flex;
+  gap: 100px;
+}
+
+.footer-page h5,
+p {
+  font-family: SF UI Text;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.64px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+.footer-page p {
+  font-size: 12px;
+  line-height: 14.32px;
+  padding-top: -20px;
+}
+
+.btn-order-now {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background-color: #0081ff;
+  border-radius: 85px;
+  font-family: SF UI Text;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.48px;
+  text-align: left;
+  padding: 10px 24px;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+}

@@ -1,0 +1,85 @@
+.header-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 68px;
+  padding-bottom: 90px;
+  background: #000;
+  gap: 105px;
+}
+
+
+ul {
+  display: flex;
+  gap: 17px;
+}
+
+header ul li {
+  list-style: none;
+  text-align: left;
+}
+
+header ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 4px 16px;
+  font-family: SF UI Text;
+  line-height: 19.09px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+ul li a.active {
+  border: 2px solid #0081ff;
+  border-radius: 85px;
+  color: #0081ff;
+}
+
+.user_about {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+}
+
+.user_about button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.user_about label {
+  display: flex;
+  align-content: inherit;
+}
+
+.user_about input {
+  border: none;
+  outline: none;
+  background: #f4fbff1a;
+  padding: 10px 25px;
+  position: relative;
+}
+
+.user_about input::placeholder,
+.user_about input {
+  font-family: SF UI Text;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.09px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 72px;
+  border-radius: 85px;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  align-content: center;
+}
+
+.search img {
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 25px;
+}
