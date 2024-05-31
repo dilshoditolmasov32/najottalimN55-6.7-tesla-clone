@@ -23,8 +23,8 @@ const Index = () => {
         <Route path="/model-3" element={<Model3 />} />
         <Route path="/model-x" element={<ModelX />} />
         <Route path="/model-y" element={<ModelY />} />
-        <Route path="/solar-roof" element={<SolarRoof />} />
-        <Route path="/solar-panels" element={<SolarPanels />} />
+        <Route path="/solarroof" element={<SolarRoof />} />
+        <Route path="/solarpanels" element={<SolarPanels />} />
       </Route>
     )
   );

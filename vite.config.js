@@ -14,6 +14,11 @@ export default defineConfig({
         find: "@routes",
         replacement: "/src/router/routes.js",
       },
+
+      {
+        find:"@images", replacement:"/src/assets"
+      }
+      
     ],
   },
 });

@@ -16,11 +16,11 @@ const routes=[
         title:"Model Y "
     },
     {
-        path:"/solar-roof",
+        path:"/solarroof",
         title:"Solar Roof"
     },
     {
-        path:"/solar-panels",
+        path:"/solarpanels",
         title:"Solar Panels"
     },
 ]

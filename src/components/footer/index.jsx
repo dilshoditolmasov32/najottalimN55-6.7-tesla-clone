@@ -2,6 +2,7 @@ import Bnt from "../btns/index";
 import "./index.css";
 
 const Index = () => {
+
   const footer = [
     {
       title: "396mi",
@@ -27,6 +28,7 @@ const Index = () => {
       <p>{item.text}</p>
     </div>
   ));
+  
   return (
     <footer className="footer-page">
       <div className="footer_car_data">{footerData}</div>

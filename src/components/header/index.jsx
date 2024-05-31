@@ -1,10 +1,7 @@
 import { NavLink } from "react-router-dom";
 import routes from "@routes";
 import "./index.css";
-import search from "../../assets/images/search.svg";
-import user from "../../assets/images/user.svg";
-import menu from "../../assets/images/menu.svg";
-import tesla from "../../assets/images/tesla.svg";
+import { user, search, tesla, menu } from "@images";
 
 const Index = () => {
   return (

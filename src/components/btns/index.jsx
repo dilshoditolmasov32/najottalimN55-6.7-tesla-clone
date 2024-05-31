@@ -1,4 +1,4 @@
-import next from "../../assets/images/next.svg";
+import { next } from "../../assets";
 import "../footer/index.css"
 const Index = () => {
   return (

@@ -5,10 +5,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "../index.css";
-import img1 from "../../assets/images/img1.svg";
-import img2 from "../../assets/images/img2.svg";
-import img3 from "../../assets/images/img3.svg";
-import img4 from "../../assets/images/img4.svg";
+import { img1, img2, img3, img4} from "@images";
 
 const Index = () => {
   return (
