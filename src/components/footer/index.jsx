@@ -1,4 +1,4 @@
-import Bnt from "../btns/index";
+import Btn from "../btns";
 import "./index.css";
 
 const Index = () => {
@@ -22,19 +22,22 @@ const Index = () => {
     },
   ];
 
-  const footerData = footer?.map((item, index) => (
-    <div key={index} className="data">
-      <h5>{item.title}</h5>
-      <p>{item.text}</p>
-    </div>
-  ));
-  
+
   return (
     <footer className="footer-page">
-      <div className="footer_car_data">{footerData}</div>
+      <div className="footer_car_data">
+        {
+          footer?.map((item, index) => (
+            <div key={index} className="data">
+              <h5>{item.title}</h5>
+              <p>{item.text}</p>
+            </div>
+          ))
+        }
+      </div>
 
       <div className="btn">
-        <Bnt />
+        <Btn />
       </div>
     </footer>
   );

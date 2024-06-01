@@ -17,17 +17,17 @@ const Index = () => {
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
     >
-      <SwiperSlide className="swipper">
+      <SwiperSlide className="swipper-slide">
        <h1>Solar Panels-1</h1>
       </SwiperSlide>
-      <SwiperSlide className="swipper">
+      <SwiperSlide className="swipper-slide">
       <h1>Solar Panels-2</h1>
       </SwiperSlide>
 
-      <SwiperSlide className="swipper">
+      <SwiperSlide className="swipper-slide">
       <h1>Solar Panels-3</h1>
       </SwiperSlide>
-      <SwiperSlide className="swipper">
+      <SwiperSlide className="swipper-slide">
       <h1>Solar Panels-4</h1>
       </SwiperSlide>
     </Swiper>

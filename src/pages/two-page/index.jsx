@@ -11,23 +11,22 @@ const Index = () => {
   return (
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      center={100}
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
     >
-      <SwiperSlide className="swipper">
+      <SwiperSlide className="swipper-slide">
         <img src={img2} alt="tesla-car" />
       </SwiperSlide>
-      <SwiperSlide className="swipper">
+      <SwiperSlide className="swipper-slide">
         <img src={img1} alt="tesla-car" />
       </SwiperSlide>
 
-      <SwiperSlide className="swipper">
+      <SwiperSlide className="swipper-slide">
         <img src={img3} alt="tesla-car" />
       </SwiperSlide>
-      <SwiperSlide className="swipper">
+      <SwiperSlide className="swipper-slide">
         <img src={img4} alt="tesla-car" />
       </SwiperSlide>
     </Swiper>

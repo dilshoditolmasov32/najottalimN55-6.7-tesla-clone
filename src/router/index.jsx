@@ -1,5 +1,4 @@
 import {
-  BrowserRouter,
   Route,
   RouterProvider,
   createBrowserRouter,
@@ -18,7 +17,7 @@ import {
 const Index = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="" element={<App />}>
+      <Route path="/" element={<App />}>
         <Route index element={<ModelS />} />
         <Route path="/model-3" element={<Model3 />} />
         <Route path="/model-x" element={<ModelX />} />

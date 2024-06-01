@@ -10,23 +10,22 @@ const Index = () => {
   return (
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      center={100}
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
     >
-      <SwiperSlide className="swipper">
+      <SwiperSlide className="swipper-slide">
         <h1>Solar Roof-1</h1>
       </SwiperSlide>
-      <SwiperSlide className="swipper">
+      <SwiperSlide className="swipper-slide">
         <h1>Solar Roof-2</h1>
       </SwiperSlide>
 
-      <SwiperSlide className="swipper">
+      <SwiperSlide className="swipper-slide">
         <h1>Solar Roof-3</h1>
       </SwiperSlide>
-      <SwiperSlide className="swipper">
+      <SwiperSlide className="swipper-slide">
         <h1>Solar Roof-4</h1>
       </SwiperSlide>
     </Swiper>
